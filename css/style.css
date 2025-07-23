@@ -42,8 +42,18 @@ main {
 
 .pokemon-todos {
     display: grid;
+    flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
+}
+
+@media (max-width: 480px) {
+    .pokemon-todos {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+
 }
 
 .pokemon-imagen, .nombre-contenedor {
