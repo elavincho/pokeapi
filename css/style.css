@@ -54,6 +54,10 @@ main {
         grid-template-columns: 1fr;
     }
 
+    .footer h4 {
+        font-size: 15px;
+    }
+
 }
 
 .pokemon-imagen, .nombre-contenedor {
