@@ -55,16 +55,16 @@ main {
     }
 
     .pokemon-todos {
-        transform: scale(0.5);
+        transform: scale(0.6);
         transform-origin: top;
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        gap: 20px;
     }
 
     #todos {
-        height: 4300px;
+        height: 5250px;
     }
 
     .footer h4 {
