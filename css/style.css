@@ -44,23 +44,47 @@ main {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+
 }
 
 @media (max-width: 480px) {
+
+    .img-nav {
+        width: 90px;
+        height: 50px;
+    }
+
     .pokemon-todos {
+        transform: scale(0.5);
+        transform-origin: top;
         display: grid;
         justify-content: center;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    #todos {
+        height: 4300px;
     }
 
     .footer h4 {
         font-size: 15px;
     }
 
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
 }
 
-.pokemon-imagen, .nombre-contenedor {
+.pokemon-imagen,
+.nombre-contenedor {
     display: flex;
     justify-content: center;
 }
@@ -70,7 +94,8 @@ main {
     height: 180px;
 }
 
-.pokemon-tipos, .pokemon-stat {
+.pokemon-tipos,
+.pokemon-stat {
     display: flex;
     justify-content: space-around;
 }
@@ -98,7 +123,8 @@ main {
     height: 50px;
 }
 
-.stat, .tipo {
+.stat,
+.tipo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +144,7 @@ main {
     perspective: 1000px;
     margin: 10px;
 }
-  
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -128,27 +154,30 @@ main {
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
-  
+
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-  
-.flip-card-front, .flip-card-back {
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
     border-radius: 10px;
 }
-  
+
 .flip-card-front {
     background-color: #f1f1f1;
     overflow: hidden;
 }
-.flip-card-front img{
+
+.flip-card-front img {
     max-height: 100%;
     width: 100%;
 }
+
 .flip-card-back {
     background-color: #555;
     background-image: url('/img/fondo.png');
@@ -159,19 +188,18 @@ main {
     justify-content: center;
     align-items: center;
 }
-  
+
 .card-content {
     padding: 20px;
     text-align: center;
 }
-  
+
 .card-content h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-  
+
 .card-content p {
     font-size: 16px;
     margin-bottom: 20px;
 }
-
