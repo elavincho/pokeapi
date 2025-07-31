@@ -2,10 +2,16 @@ const listaPokemon = document.querySelector("#listaPokemon");
 
 let url = "https://pokeapi.co/api/v2/pokemon/";
 
-for (let i = 1; i <= 40; i++) {
+for (let i = 1; i <= 100; i++) {
     fetch(url + i)
         .then((response) => response.json())
         .then(data => mostrarPokemon(data))
+        .catch(() => {
+            if (i <= 1) {
+                alert("No se pudo obtener los datos de la API")
+            }
+        })
+        .finally(console.log("Finally de la API de Pokemon"));
 }
 
 function mostrarPokemon(data) {
