@@ -18,7 +18,7 @@ Proyecto para realizar tarjetas pokémon, cuyos datos obtengo de la pokéapi **p
   
 ## Objetivo del Proyecto
 
-Este sistema tiene la finalidad de crear tarjetas pokemon en la cual obtenemos todos los datos de la **pokeapi** la cual nos brinda la siguiente información:
+Este sistema tiene la finalidad de crear tarjetas pokémon en la cual obtenemos todos los datos de la **pokéapi** la cual nos brinda la siguiente información:
 
 - Número de orden
 - Nombre
@@ -27,6 +27,6 @@ Este sistema tiene la finalidad de crear tarjetas pokemon en la cual obtenemos t
 - Peso
 - Imagen
 
-## Imagenes del proyecto
+## Imágenes del proyecto
 
 <img src="https://github.com/elavincho/pokeapi/blob/master/img/Captura_de_pantalla_1.png" width="200" height="200" alt="img"/> <img src="https://github.com/elavincho/pokeapi/blob/master/img/Captura_de_pantalla_2.png" width="200" height="200" alt="img"/><img src="https://github.com/elavincho/pokeapi/blob/master/img/Captura_de_pantalla_3.png" width="100" height="200" alt="img"/><img src="https://github.com/elavincho/pokeapi/blob/master/img/Captura_de_pantalla_4.png" width="100" height="200" alt="img"/>
