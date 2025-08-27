@@ -1,3 +1,5 @@
+<img src="https://github.com/elavincho/pokeapi/blob/master/img/pokemon.png" width="80" height="80" alt="img"/>
+
 # Tarjetas Pokémon - Consumir una API con JavaScript
 
 Proyecto para realizar tarjetas pokémon, cuyos datos obtengo de la pokéapi **pokeapi.co** la cual nos brinda toda la información de los pokémones existentes.
