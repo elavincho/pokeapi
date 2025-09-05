@@ -42,7 +42,9 @@ function mostrarPokemon(data) {
                             <h3 class="pokemon-id">${data.order}</h3>
                         </div>
                         <h1 class="pokemon-name">${data.name}</h1>
-                        <img class="img-pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg" alt="img">
+                        <a href="/detalles.html">
+                            <img class="img-pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${data.id}.svg" alt="img">
+                        </a>
                         <div class="pokemon-tipos">
                             ${tipos}
                         </div>
