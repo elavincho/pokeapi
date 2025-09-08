@@ -66,9 +66,6 @@ function mostrarPokemon(data) {
 const urlParams = new URLSearchParams(window.location.search);
 const pokemonId = urlParams.get('id');
 
-// Asegurarnos de tener el contenedor
-//const detallePokemon = document.querySelector("#detallePokemon") || document.createElement("div");
-
 if (pokemonId) {
     obtenerUnPokemon(pokemonId).then(pokemon => {
         if (pokemon) {
@@ -77,7 +74,7 @@ if (pokemonId) {
     });
 }
 
-// Función para obtener un Pokémon (asegúrate de tenerla definida)
+// Función para obtener un Pokémon
 async function obtenerUnPokemon(identificador) {
     const url = `https://pokeapi.co/api/v2/pokemon/${identificador}/`;
 
@@ -96,14 +93,10 @@ async function obtenerUnPokemon(identificador) {
 }
 
 function mostrarDetallePokemon(data) {
-    // 1. Mapear los tipos (esto faltaba)
+    // Mapear los tipos
     let tipos = data.types.map((type) => `<h5 class="tipo">${type.type.name}</h5>`);
     tipos = tipos.join(' ');
 
-    // 2. Limpiar el contenedor antes de agregar
-    detallePokemon.innerHTML = '';
-
-    // 3. Crear el HTML con la estructura corregida
     const div = document.createElement("div");
     div.classList.add("pokemon");
     div.innerHTML = `
