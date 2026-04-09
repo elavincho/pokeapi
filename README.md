@@ -2,7 +2,7 @@
 
 # Tarjetas Pokémon - Consumir una API con JavaScript
 
-Proyecto para realizar tarjetas pokémon, cuyos datos obtengo de la pokéapi **pokeapi.co** la cual nos brinda toda la información de los pokémones existentes.
+Proyecto para realizar tarjetas pokémon, cuyos datos obtengo de la pokéapi **pokeapi.com** la cual nos brinda toda la información de los pokémones existentes.
 
 ## Tecnologías utilizadas
 
@@ -20,7 +20,7 @@ Proyecto para realizar tarjetas pokémon, cuyos datos obtengo de la pokéapi **p
   
 ## Objetivo del Proyecto
 
-Este sistema tiene la finalidad de crear tarjetas pokémon, utilizando **JavaScript" de forma asincrona con **fetch**, **then** y **catch**.  Obtenemos todos los datos de la **pokéapi** la cual nos brinda la siguiente información:
+Este sistema tiene la finalidad de crear tarjetas pokémon, utilizando **JavaScript** de forma asincrona con **fetch()**, **then()** y **catch()**.  Obtenemos todos los datos de la **pokéapi** la cual nos brinda la siguiente información:
 
 - Número de orden
 - Nombre
