@@ -20,7 +20,7 @@ Proyecto para realizar tarjetas pokémon, cuyos datos obtengo de la pokéapi **p
   
 ## Objetivo del Proyecto
 
-Este sistema tiene la finalidad de crear tarjetas pokémon, utilizando **JavaScript** de forma asincrona con **fetch()**, **then()** y **catch()**.  Obtenemos todos los datos de la **pokéapi** la cual nos brinda la siguiente información:
+Este sistema tiene la finalidad de crear tarjetas pokémon, utilizando **JavaScript** de forma asíncrona con **fetch()**, **then()** y **catch()**.  Obtenemos todos los datos de la **pokéapi** la cual nos brinda la siguiente información:
 
 - Número de orden
 - Nombre
