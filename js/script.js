@@ -5,7 +5,7 @@ const listaPokemon = document.querySelector("#listaPokemon");
 async function obtenerPokemon() {
     const url = "https://pokeapi.co/api/v2/pokemon/";
 
-    for (var i = 1; i <= 60; i++) {
+    for (var i = 1; i <= 80; i++) {
         await fetch(url + i)
             .then((response) => response.json())
             .then(data => mostrarPokemon(data))
